@@ -1,4 +1,4 @@
-import db from "/Users/isabelsilva/2023/fall/webdev/kanbas-node-server-app/Database/index.js";
+import db from "../index.js";
 
 function ModuleRoutes(app) {
     app.put("/api/modules/:mid", (req, res) => {

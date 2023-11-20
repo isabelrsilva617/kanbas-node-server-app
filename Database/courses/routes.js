@@ -1,4 +1,4 @@
-import Database from "/Users/isabelsilva/2023/fall/webdev/kanbas-node-server-app/Database/index.js";
+import Database from "../index.js";
 
 function CourseRoutes(app) {
     app.get("/api/courses/:id", (req, res) => {
